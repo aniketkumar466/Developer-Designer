@@ -1,0 +1,14 @@
+CREATE TABLE Notification (
+    Notification int,
+	SendDate date,
+	CompanyID int
+    
+    
+);
+
+SELECT * FROM [notification_sql]
+
+
+
+NSERT INTO Notification (Notification,SendDate,CompanyID)
+VALUES (1, 'date', 1);

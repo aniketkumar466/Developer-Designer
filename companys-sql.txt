@@ -1,0 +1,28 @@
+CREATE TABLE Companys (
+    CompanyID int,
+    CompanyName varchar(255),
+    CompanyNumber int,
+    CompanyType varchar(255),
+    Market varchar(255)
+);
+
+
+SELECT * FROM [company_sql]
+
+
+
+NSERT INTO CUSTOMERS (CompanyID,CompanyName,CompanyNumber,CompanyType,Market)
+VALUES (1, 'danske', 1234567890, 'Small', Denmark );
+
+NSERT INTO CUSTOMERS (CompanyID,CompanyName,CompanyNumber,CompanyType,Market)
+VALUES (2, 'xyz', 1234567891, 'Medium', Norway );
+
+NSERT INTO CUSTOMERS (CompanyID,CompanyName,CompanyNumber,CompanyType,Market)
+VALUES (3, 'xyza', 1234567892, 'Medium', Sweden );
+
+NSERT INTO CUSTOMERS (CompanyID,CompanyName,CompanyNumber,CompanyType,Market)
+VALUES (4, 'xyzb', 1234567893, 'Medium', Finland );
+
+
+NSERT INTO CUSTOMERS (CompanyID,CompanyName,CompanyNumber,CompanyType,Market)
+VALUES (5, 'xyzdemo', 1234567894, 'Small', Sweden );
